@@ -1,0 +1,72 @@
+.header{
+    font-family: Poppins;
+    background-image: url(../images/header/header.svg);
+    background-repeat: no-repeat;
+
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    padding-top: 3em;
+    padding-left: 10%;
+    padding-right: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*background-position: top left;*/ 
+    width: 100%; 
+    height: max-content;
+    /* height: 100%; */
+}
+.header-bg{
+    position: absolute;
+    top: 0;
+    left:0;
+    /* background: #6776FF;
+    border-bottom-left-radius: 425px; */
+    /* background-color:#6776FF; */
+    width: 100%;
+    min-height: 1800px;/* need to change*/
+    z-index: -1;
+    /* background-image: url(../images/header/header-svg.svg); */
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+#hero-image{
+    background-image:url(../images/header/hero-rect24.svg),
+    url(../images/header/hero-rect23.svg),
+    url(../images/header/hero-rect.svg);
+    /* background-repeat: no-repeat;
+    background-position: center center,70% top,50% center; */
+    /* background-size: 50% 100%, contain,contain; */
+    background-size: 80%, 100%, 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+/*  Navbar */
+/* Cards */
+#hero .card{
+   width:32%; 
+   /* min-width: 120px; */
+   box-shadow: 0px 10px 50px rgba(103, 118, 255, 0.1);
+   border-radius: 35px;  
+   font-family:  Gilory;  
+}
+#hero #card-1 .card-title{
+    color: #14C798;
+}
+#hero #card-2 .card-title{
+    color: #FD7B92;
+}
+#hero #card-3 .card-title{
+    color: #6A7AFF;
+}
+/* #hero .card */
+.collapse
+{
+    position: absolute;
+    top: 60px;
+
+    z-index: 1;
+}

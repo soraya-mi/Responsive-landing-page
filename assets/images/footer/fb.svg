@@ -1,0 +1,23 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <defs stroke="null" transform="translate(305 0) translate(0 275) translate(305 275) scale(0.363158 1) translate(-305 -275)">
+   <clipPath stroke="null" id="svg_3">
+    <rect stroke="null" x="80" y="285" transform="translate(305 0)" fill="white" height="30" width="30"/>
+   </clipPath>
+   <clipPath stroke="null" id="svg_2">
+    <rect stroke="null" x="17" y="18" transform="translate(-7 -8)" fill="white" height="30" width="30"/>
+   </clipPath>
+   <clipPath stroke="null" id="svg_1">
+    <rect stroke="null" x="10" y="285" transform="translate(305 0)" fill="white" height="30" width="30"/>
+   </clipPath>
+  </defs>
+  <g id="svg_5">
+   <circle stroke="null" fill="#12134C" r="25" cy="25" cx="25"/>
+   <g stroke="null" clip-path="url(#svg_2)">
+    <path stroke="null" fill="#3D5A9C" d="m29.996,14.9812l2.739,0l0,-4.7699c-0.472,-0.0651 -2.097,-0.2113 -3.99,-0.2113c-3.949,0 -6.654,2.4837 -6.654,7.0487l0,4.2013l-4.357,0l0,5.3325l4.357,0l0,13.4175l5.343,0l0,-13.4163l4.181,0l0.664,-5.3324l-4.846,0l0,-3.6738c0.001,-1.5413 0.416,-2.5963 2.563,-2.5963z"/>
+   </g>
+  </g>
+ </g>
+</svg>
