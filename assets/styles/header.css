@@ -1,72 +1,98 @@
-.header{
-    font-family: Poppins;
-    background-image: url(../images/header/header.svg);
-    background-repeat: no-repeat;
-
-    /* background-size: 100% 100%; */
-    background-size: cover;
-    padding-top: 3em;
-    padding-left: 10%;
-    padding-right: 8%;
-    margin-left: auto;
-    margin-right: auto;
-    
-    /*background-position: top left;*/ 
-    width: 100%; 
-    height: max-content;
-    /* height: 100%; */
+.header {
+  font-family: Poppins;
+  background-image: url(../images/header/header.svg);
+  background-repeat: no-repeat;
+  height:2000px;
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  padding-top: 3em;
+  padding-left: 10%;
+  padding-right: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-position: top left;*/
+  width: 100%;
+  /* height: max-content; */
+  /* height: 100%; */
 }
-.header-bg{
-    position: absolute;
-    top: 0;
-    left:0;
-    /* background: #6776FF;
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: #6776FF;
     border-bottom-left-radius: 425px; */
-    /* background-color:#6776FF; */
-    width: 100%;
-    min-height: 1800px;/* need to change*/
-    z-index: -1;
-    /* background-image: url(../images/header/header-svg.svg); */
-    background-repeat: no-repeat;
-    /* background-position: center center; */
-    /* background-attachment: fixed; */
-    background-size: cover;
+  /* background-color:#6776FF; */
+  width: 100%;
+  min-height: 1800px; /* need to change*/
+  z-index: -1;
+  /* background-image: url(../images/header/header-svg.svg); */
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+  background-size: cover;
 }
-#hero-image{
-    background-image:url(../images/header/hero-rect24.svg),
-    url(../images/header/hero-rect23.svg),
-    url(../images/header/hero-rect.svg);
-    /* background-repeat: no-repeat;
+#hero-image {
+  background-image: url(../images/header/hero-rect24.svg),
+    url(../images/header/hero-rect23.svg), url(../images/header/hero-rect.svg);
+  /* background-repeat: no-repeat;
     background-position: center center,70% top,50% center; */
-    /* background-size: 50% 100%, contain,contain; */
-    background-size: 80%, 100%, 90%;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
+  /* background-size: 50% 100%, contain,contain; */
+  background-size: 80%, 100%, 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 /*  Navbar */
 /* Cards */
-#hero .card{
-   width:32%; 
-   /* min-width: 120px; */
-   box-shadow: 0px 10px 50px rgba(103, 118, 255, 0.1);
-   border-radius: 35px;  
-   font-family:  Gilory;  
+#hero .card {
+  font-family: Gilory;
+  width: 32%;
+  box-shadow: 0px 10px 50px rgba(103, 118, 255, 0.1);
+  border-radius: 35px;
+  border: solid 3px transparent;
+  /* border-image:linear-gradient(165deg,rgb(255, 255, 255)80%,blue) 10; */
+  background-clip: padding-box;
 }
-#hero #card-1 .card-title{
-    color: #14C798;
+#hero .card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -3px; /* !importanté */
+  border-radius: inherit; /* !importanté */
+  background: linear-gradient(to bottom, white 70%, #6776ff);
 }
-#hero #card-2 .card-title{
-    color: #FD7B92;
+
+/* border: 1px transparent;
+   border-width: 3px;
+   
+   background-image: linear-gradient(white, white),
+   radial-gradient(circle,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)90%, #6776FF 10%);
+   background-origin: border-box; */
+/* background-clip: content-box, border-box; */
+#hero .card-title {
+  font-family: Gilory;
 }
-#hero #card-3 .card-title{
-    color: #6A7AFF;
+#hero #card-1 .card-title {
+  color: #14c798;
 }
-/* #hero .card */
+#hero #card-2 .card-title {
+  color: #fd7b92;
+}
+#hero #card-3 .card-title {
+  color: #6a7aff;
+}
+/* @media screen { min-width: 560;
+    
+} */
+/* this shoud only apply in mobile view
 .collapse
 {
     position: absolute;
     top: 60px;
 
     z-index: 1;
-}
+} */

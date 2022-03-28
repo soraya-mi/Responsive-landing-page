@@ -6,6 +6,9 @@
   font-family: Gilory;
   src: url(../fonts/gilroy/Gilroy-Black.ttf);
 }
+*{
+  font-family: Poppins;
+}
 h1{
   font-family: Gilory;
 }
