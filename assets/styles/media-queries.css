@@ -1,10 +1,9 @@
-/*in yeki moond*/
 @media screen and (max-width: 385px) {
   /*header*/
-  header #hero .card .card-title {
+  .header__card_title {
     font-size: 0.7rem;
   }
-  header #hero .card .card-text {
+  .header__cart_text {
     font-size: 0.5rem;
   }
   /*main*/
@@ -23,45 +22,45 @@
     font-size: 6px;
     /* color:red; */
   }
-  #section-Student-Testimonial .qoute-card-text {
+  .main__reviews .qoute-card-text {
     font-size: 8px;
     width:65%;
     left:15%;
     top:42%;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 70%;
     left: 40%;
     font-size: 8px;
   }
-  .contact,
-  #cantact-bg {
+  .footer__cantact,
+  .footer__cantact_bg {
     border-radius: 20px;
   }
-  #divider {
+  .footer__copyright {
     height: 10px;
   }
 }
 @media screen and (min-width: 386px) {
   /*header*/
-  header #hero .card .card-title {
+  .header__card_title {
     font-size: 0.8rem;
   }
-  header #hero .card .card-text {
+  .header__cart_text {
     font-size: 0.7rem;
   }
   /*main*/
-  #section-Student-Testimonial .qoute-bg {
+  .main__reviews .qoute-bg {
     width: 75%;
     left: 12%;
     top: 30%;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 67%;
     left: 43%;
     font-size: 12px;
   }
-  #section-Student-Testimonial .qoute-card-text {
+  .main__reviews .qoute-card-text {
     left: 20%;
     top: 45%;
     width: 60%;
@@ -77,47 +76,47 @@
     max-height: 90px;
   }
   /* section 2 :Our Popular Cources */
-  #section-2 .card-body > div {
+  .main__popular_courses .card-body > div {
     flex-direction: row;
     justify-content: space-between;
   }
-  #section-2 .card-body,
-  #section-2 .card-body > div,
-  #section-2 .card-tag,
-  #section-2 .card-rate {
+  .main__popular_courses .card-body,
+  .main__popular_courses .card-body > div,
+  .main__popular_courses .card-tag,
+  .main__popular_courses .card-rate {
     width: auto;
     font-size: 14px;
     margin: 5px 0px;
   }
-  #section-2 .card-title {
+  .main__popular_courses .card-title {
     font-size: 16px;
   }
-  #section-2 .card-img-top {
+  .main__popular_courses .card-img-top {
     border-radius: 20px;
   }
   /*footer*/
-  .subscribe {
+  .footer__subscribe {
     font-size: 12px;
   }
 }
 @media screen and (min-width: 486px) {
   /*main*/
-  #section-Student-Testimonial > div:last-child{
+  .main__reviews > div:last-child{
     height: 300px;
   }
-  #section-Student-Testimonial .qoute-bg {
+  .main__reviews .qoute-bg {
     width: 70%;
     left: 15%;
     top: 20%;
   }
-  #section-Student-Testimonial .qoute-author-img {
+  .main__reviews .qoute-author-img {
     width: 35px;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 52%;
     left: 43%;
   }
-  #section-Student-Testimonial .qoute-card-text {
+  .main__reviews .qoute-card-text {
     left: 22%;
     top: 35%;
     width: 55%;
@@ -133,39 +132,39 @@
     max-height: 110px;
   }
   /*footer*/
-  .subscribe {
+  .footer__subscribe {
     height: 60px;
     font-size: 14px;
   }
-  #footer-links h3 {
+  .footer__links h3 {
     font-size: 1.4rem;
   }
-  #footer-links a,
-  #footer-links p {
+  .footer__links a,
+  .footer__links p {
     font-size: 0.9rem;
   }
-  #footer-links span {
+  .footer__links span {
     font-size: 0.8rem;
   }
-  .subscribe input {
+  .footer__subscribe input {
     font-size: 1rem;
   }
 }
 @media screen and (min-width: 768px) {
   /*main*/
-  #section-Student-Testimonial .qoute-author-img {
+  .main__reviews .qoute-author-img {
     width: 60px;
   }
-  #section-Student-Testimonial .qoute-bg {
+  .main__reviews .qoute-bg {
     width: 70%;
     left: 15%;
     top: 18%;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 50%;
     left: 45%;
   }
-  #section-Student-Testimonial .qoute-card-text {
+  .main__reviews .qoute-card-text {
     left: 22%;
     top: 30%;
     width: 55%;
@@ -179,33 +178,33 @@
     max-height: 130px;
   }
   /* section 2 :Our Popular Cources */
-  #section-2 .card-body,
-  #section-2 .card-body > div,
-  #section-2 .card-tag,
-  #section-2 .card-rate {
+  .main__popular_courses .card-body,
+  .main__popular_courses .card-body > div,
+  .main__popular_courses .card-tag,
+  .main__popular_courses .card-rate {
     font-size: 16px;
     margin: 5px 0px;
   }
-  #section-2 .card-title {
+  .main__popular_courses .card-title {
     font-size: 18px;
   }
-  #section-2 .card-body img {
+  .main__popular_courses .card-body img {
     height: 16px;
   }
-  #section-2 .card-tag {
+  .main__popular_courses .card-tag {
     padding-right: 2px;
     padding-left: 2px;
   }
-  #section-2 .card-title {
+  .main__popular_courses .card-title {
     font-size: 16px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
-  #section-Student-Testimonial > div:last-child{
+  .main__reviews > div:last-child{
     height: 400px;
   }
   /*footer*/
-  .subscribe {
+  .footer__subscribe {
     height: 70px;
   }
 }
@@ -214,46 +213,46 @@
   .header {
     height: auto;
   }
-  header #hero .card .card-title {
+  .header__card_title {
     font-size: 1rem;
   }
-  header #hero .card .card-text {
+  .header__cart_text {
     font-size: 0.7rem;
   }
   /*main*/
 
-  #section-Student-Testimonial .qoute-author-img {
+  .main__reviews .qoute-author-img {
     width: 80px;
   }
-  #section-Student-Testimonial .qoute-bg {
+  .main__reviews .qoute-bg {
     top: 10%;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 60%;
     left: 45%;
     font-size: 1rem;
   }
-  #section-Student-Testimonial .qoute-card-text {
+  .main__reviews .qoute-card-text {
     left: 25%;
     top: 25%;
     width: 50%;
     font-size: 1rem;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 50%;
     left: 45%;
   }
   /* section 2 :Our Popular Cources */
-  #section-2 .card {
+  .main__popular_courses .card {
     width: 94%;
     height: 99%;
     font-size: 14px;
   }
-  #section-2 .card-tag {
+  .main__popular_courses .card-tag {
     padding-right: 2px;
     padding-left: 2px;
   }
-  #section-2 .card-title {
+  .main__popular_courses .card-title {
     font-size: 16px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -263,121 +262,133 @@
     max-height: 150px;
   }
   /*footer*/
-  .footer-bg {
-    padding-top: 0px;
-  }
-  footer {
+  .footer {
     margin-top: auto;
   }
-  .subscribe {
+  .footer__bg {
+    padding-top: 0px;
+  }
+  .footer__subscribe {
     height: 80px;
     font-size: 14px;
   }
-  #footer-links h3 {
+  .footer__links h3 {
     font-size: 1.4rem;
   }
-  #footer-links a,
-  #footer-links p {
+  .footer__links a,
+  .footer__links p {
     font-size: 0.9rem;
   }
-  #footer-links span {
+  .footer__links span {
     font-size: 0.8rem;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   /*header*/
-  header #hero .card .card-title {
+  .header__card_title {
     font-size: 1.3rem;
   }
-  header #hero .card .card-text {
+  .header__cart_text {
     font-size: 1rem;
   }
   /*main*/
-  #section-Student-Testimonial .qoute-author-img {
+  .main__reviews .qoute-author-img {
     width: 100px;
   }
-  #section-Student-Testimonial .qoute-bg {
+  .main__reviews .qoute-bg {
     width: 60%;
     left: 20%;
     top: -5%;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 35%;
     left: 45%;
   }
-  #section-Student-Testimonial .qoute-card-text {
+  .main__reviews .qoute-card-text {
     left: 28%;
     top: 15%;
     width: 45%;
   }
-  #section-2 .card-title {
+  .main__popular_courses .card-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  #section-4 .card .card-img-top {
+    width: auto;
+    max-height: 190px;
+  }
   /* footer */
-  .footer-info {
+  .footer__info {
     flex: 0 0 20%;
   }
-  .subscribe {
+  .footer__subscribe {
     height: 90px;
   }
-  #footer-links h3 {
+  .footer__links h3 {
     font-size: 1.6rem;
   }
-  #footer-links a,
-  #footer-links p {
+  .footer__links a,
+  .footer__links p {
     font-size: 1rem;
   }
-  #footer-links span {
+  .footer__links span {
     font-size: 0.9rem;
   }
 }
 @media screen and (min-width: 1400px) {
+  /*header*/
+  .header__card_title {
+    font-size: 1.5rem;
+  }
+  .header__cart_text {
+    font-size: 1.2rem;
+  }
   /*main*/
-  #section-Student-Testimonial .qoute-bg {
+  .main__reviews .qoute-bg {
     width: 70%;
     left: 15%;
     top: -15%;
   }
-  #section-Student-Testimonial .qoute-author {
+  .main__reviews .qoute-author {
     top: 50%;
     left: 46%;
   }
-  #section-Student-Testimonial .qoute-card-text {
+  .main__reviews .qoute-card-text {
     left: 27%;
     top: 15%;
     width: 45%;
     font-size: 20px;
   }
   /* section 2 :Our Popular Cources */
-  #section-2 .card {
+  .main__popular_courses .card {
     width: 98%;
     height: 99%;
   }
-  #section-2 .card-img-top {
+  .main__popular_courses .card-img-top {
     border-radius: 45px;
   }
-  #section-2 .card-tag {
+  .main__popular_courses .card-tag {
     padding-right: 5px;
     padding-left: 5px;
   }
-  #section-2 .card-title {
+  .main__popular_courses .card-title {
+    font-size:20px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
   /*footer*/
-  .subscribe {
+  .footer__subscribe {
     height: 100px;
   }
-  #footer-links {
+  .footer__links {
     width: 83.33%;
   }
-  #footer-links h3 {
+  .footer__links h3 {
     font-size: 1.75rem;
   }
-  #footer-links a,
-  #footer-links p,
-  #footer-links span {
+  .footer__links a,
+  .footer__links p,
+  .footer__links span {
     font-size: 1rem;
   }
 }

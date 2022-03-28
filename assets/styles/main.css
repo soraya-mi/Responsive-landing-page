@@ -1,5 +1,5 @@
 /* section 1 */
-#section-1 .image-container {
+.main__benefits .image-container {
   background-image: url(../images/main/section-2/bg-blue.svg);
   background-position: 40% 45%;
   background-repeat: no-repeat;
@@ -17,49 +17,40 @@
   display: inline-block;
   position: absolute;
 }
-#section-1 #img-1 {
-  /* position: absolute; */
+.main__benefits #img-1 {
   width: 170px;
   height: 226px;
-  /* left: 315px; */
-  /* top: 1344px; */
   background: #274966;
   border-radius: 190px 0px 0px 0px;
   background-image: url(../images/main/section-2/pngaaadark-blue.png);
   background-position: 0px 30px;
   background-repeat: no-repeat;
-  /* background-size: contain; */
   content: "";
 }
-#section-1 #img-2 {
+.main__benefits #img-2 {
   width: 400px;
   height: 248px;
   left: 220px;
   top: 125px;
-  /* background: linear-gradient(82.05deg, #5B3C83 2.97%, #C2A9E2 84.86%); */
   border-radius: 0px 190px 0px 0px;
-  /* background-image: url(../images/main/section-2/img-purple.png),
-      url(../images/main/section-2/purple.svg); */
   background-image: url(../images/main/bg-purple.svg);
   background-position: 20%, 0px 0px;
   background-repeat: no-repeat;
   background-size: contain;
   content: "";
 }
-#section-1 #img-3 {
+.main__benefits #img-3 {
   width: 190px;
   height: 301px;
   left: 0px;
   top: 260px;
-  /* background-image: url(../images/main/section-2/pngaaa-gray.png),
-      url(../images/main/section-2/6bg-gray.svg); */
   background-position: 35% 55%, 0px 0px;
   background-repeat: no-repeat;
   content: "";
   background: #d7d7d4;
   border-radius: 95px;
 }
-#section-1 #img-4 {
+.main__benefits #img-4 {
   width: 190px;
   height: 190px;
   left: 210px;
@@ -69,10 +60,9 @@
   background-image: url(../images/main/section-2/pngaaapink.png);
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: contain; */
   content: "";
 }
-#section-1 #img-5 {
+.main__benefits #img-5 {
   width: 190px;
   height: 301px;
   left: 430px;
@@ -84,7 +74,7 @@
   background-repeat: no-repeat;
   content: "";
 }
-#section-1 #img-6 {
+.main__benefits #img-6 {
   width: 409px;
   height: 248px;
   left: 0px;
@@ -96,7 +86,7 @@
   background-repeat: no-repeat;
   content: "";
 }
-.item-logo {
+.main__benefits .item__logo {
   width: 90px;
   display: inline-block;
   margin-right: 2px;
@@ -105,17 +95,11 @@
   padding-right: 35px;
   background-position: center;
 }
-#section-1 #icon-2 {
-  background-image: url(../images/main/section1/icon-2.svg),
-    url(../images/main/section1/icon-2-bg.svg);
+.main__benefits .item__title{
+  font-family:Gilory;
 }
-#section-1 #icon-3 {
-  background-image: url(../images/main/section1/searchicon-3.svg),
-    url(../images/main/section1/icon-3-bg.svg);
-}
-
 /* section 2 :Our Popular Cources */
-#section-2 .card-bg {
+.main__popular_courses .card--bg {
   width: 100%;
   height:100%;
   background-repeat: no-repeat;
@@ -124,7 +108,7 @@
   background-position: top;
   /* width:auto; */
 }
-#section-2 .card {
+.main__popular_courses .card {
   background-image: url(../images/main/section-4/card-bg.svg) !important;
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,20 +120,21 @@
   /* font-size:12px; */
   overflow:hidden;
 }
-#section-2 .card-title{
+.main__popular_courses .card-title{
   font-size:10px;
 }
-#section-2 .card-img-top {
+.main__popular_courses .card-img-top {
   border-radius: 10px;
 }
-#section-2 .card-body{
+.main__popular_courses .card-body{
   padding-bottom:2px;
   padding-top:2px;
 }
-#section-2 .card-body,#section-2 .card-body >div{
+.main__popular_courses .card-body,
+.main__popular_courses .card-body>div{
   width:fit-content;
 }
-#section-2 .card-tag {
+.main__popular_courses .card-tag {
   background: #eaedff;
   color: #6776ff;
   border-radius: 5px;
@@ -158,13 +143,13 @@
   width:fit-content;
   padding:1px;
 }
-#section-2 .card-body img{
+.main__popular_courses .card-body img{
   height:10px;
 }
-#section-2 .card-play{
+.main__popular_courses .card-play{
   font-size:8px;
 }
-#section-2 .card-rate {
+.main__popular_courses .card-rate {
   color: #fff;
   background: #6776ff;
   border-radius: 25px;
@@ -173,10 +158,10 @@
   justify-content: space-between;
   font-size:8px;
 }
-#section-2 .card-body>div{
+.main__popular_courses .card-body>div{
   flex-direction:column;
 }
-
+/* section 3*/
 /* section 4 */
 #section-4 {
   background: #eaedff;
@@ -194,6 +179,7 @@
   /* height: 209px;
   min-height: 209px; */
   max-height: 190px;
+  margin-top:25px;
 }
 #section-4 .card .btn {
   color: #fff;
@@ -211,10 +197,10 @@
 }
 
 /* section 5 : #section-Student-Testimonial */
-#section-Student-Testimonial{
+.main__reviews{
   overflow: hidden;
 }
-#section-Student-Testimonial > div:last-child {
+.main__reviews > div:last-child {
   height: 250px;
   /* min-height: 200px; */
   /* background-image: url(../images/main/photos.png); */
@@ -227,23 +213,23 @@
   /* left:0%; */
   color: #aaacc6;
 }
-#section-Student-Testimonial > div:last-child > * {
+.main__reviews > div:last-child > * {
   position: absolute;
 }
-#section-Student-Testimonial .qoute-bg {
+.main__reviews .qoute-bg {
   left: 0%;
   top: 30%;
   height: auto;
 }
-#section-Student-Testimonial .qoute-author-img {
+.main__reviews .qoute-author-img {
   width: 20px;
 }
-#section-Student-Testimonial .qoute-author {
+.main__reviews .qoute-author {
   top: 57%;
   left: 40%;
   font-size: 12px;
 }
-#section-Student-Testimonial .qoute-card-text {
+.main__reviews .qoute-card-text {
   color: #aaacc6;
   left: 10%;
   top: 38%;
