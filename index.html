@@ -26,6 +26,8 @@
   <body class="page">
     <div class="page__wrapper">
       <!-- header of the page -->
+      <div class="header--warpper">
+      <img class="header--bg" src="./assets/images/header/header.svg">
       <header class="header pb-5" >
         <!-- navigation of the page -->
         <div class="header__navbar">
@@ -184,31 +186,39 @@
                 </span>
               </div>
               <div class="d-flex flex-row my-5 justify-content-between">
-                <div class="header__card card text-center fw-bold px-lg-3 px-sm-1" id="card-1">
+                <div class="card--bg col-4 ">
+                <div class="header__card card text-center fw-bold " id="card-1">
                   <img class="card-img-top img-fluid h-50 p-2 mt-2" src="./assets/images/header/cart-icon-1.svg">
                   <div class="card-body p-0">
-                    <h4 class="header__card_title card-title fw-bold">16,032</h4>
+                    <h2 class="header__card_title card-title fw-bold">16,032</h2>
                     <p class="header__cart_text card-text text-lg">Schools</p>
                   </div>
                 </div>
-                <div class="header__card card text-center fw-bold px-lg-3 px-sm-1" id="card-2">
+                </div>
+                <div class="card--bg col-4">
+                <div class="header__card card text-center fw-bold " id="card-2">
                   <img class="card-img-top img-fluid h-50 p-2 mt-2" src="./assets/images/header/cart-icon-2.svg">
                   <div class="card-body p-0">
                     <h4 class="header__card_title card-title fw-bold">10M</h4>
                     <p class="header__cart_text card-text">Users</p>
                   </div>
                 </div>
-                <div class="header__card card text-center fw-bold px-lg-3 px-sm-1" id="card-3">
+                </div>
+                <div class="card--bg col-4">
+                <div class="header__card card text-center fw-bold" id="card-3">
                   <img class="card-img-top img-fluid h-50 p-2 mt-2" src="./assets/images/header/cart-icon-3.svg">
                   <div class="card-body p-0">
                     <h4 class="header__card_title card-title fw-bold">119</h4>
                     <p class="header__cart_text card-text">Countries</p>
                   </div>
                 </div>
+                </div>
               </div>
           </div>
         </div>
       </header>
+    </img>
+      </div>
       <!-- main section of the page -->
       <main class="main container">
       <!--Section 1: benefits-->
@@ -260,7 +270,6 @@
           </div>
         </div>
       </section>   
-
        <!--Section 2: Popular cources-->
        <section class="main__popular_courses container-fluid d-flex flex-column py-5 my-3 my-md-5">
         <div class="row text-center">
@@ -338,14 +347,16 @@
               <img class="card-img-top img-fluid" src="./assets/images/main/section-2/sec2-img-course-3.png" />
             </div>           
           <div class="card-body px-xl-3 px-lg-2 px-md-1 px-0 px-1">
-            <div class="d-flex flex-wrap  justify-content-between">
+            <div class="d-flex flex-wrap justify-content-between">
               <span class="card-tag fw-bold my-auto">English Depertment</span>
               <span class="card-rate d-inline-flex align-items-center justify-content-between px-lg-3 px-sm-2 px-1 py-lg-1">
                 <img class="img-fluid me-2" src="./assets/images/main/section-4/star.svg" />
                 <span class="align-middle fw-bold">4.9</span>
             </span>
           </div>
-            <h5 class="card-title fw-bold  my-md-3 my-sm-2 col-10">Master English: How to Improve Your English speaking</h5>
+            <h5 class="card-title fw-bold my-md-3 my-sm-2 col-10">
+              Master English: How to Improve Your English speaking
+            </h5>
             <div class="card-play d-flex flex-wrap justify-content-between my-lg-3 my-md-2 my-sm-1">
                 <span>
                  <img class="me-2" src="./assets/images/main/section-4/play.svg"  />
@@ -362,7 +373,6 @@
        </div>   
       </div>
       </section>
-
       <!--Section 3: Become an instructor-->
       <section class="main__apply container-fluid d-flex flex-column flex-lg-row py-5 my-5">
         <div id="col-lg-6 order-lg-last mb-4">
@@ -383,7 +393,7 @@
           </div>
       </section>  
      <!--Section 4: our innovations-->
-      <section class="container p-lg-5 p-md-3 p-sm-2 text-center py-5" id="section-4">
+      <section class="main__innovation container p-lg-5 p-md-3 p-sm-2 text-center py-5">
         <div class="row">
           <div class="col-lg-6 col-md-8 col-sm-12 mx-auto my-4">
             <span><h1>Our Innovations</h1></span>
@@ -452,28 +462,45 @@
         </div>
         </section>
       <!--Section 5: student testiomonal-->
-      <section class="main__reviews container-fluid d-flex flex-column text-center py-5 px-5 px-md-3 px-sm-1 my-5">
+      <section class="main__testimonial container-fluid d-flex flex-column text-center py-5 px-5 px-md-3 px-sm-1 my-5">
         <div class="row"> 
           <div class="col-lg-5 col-md-8 col-sm-12 mx-auto">
           <h1>Student Testimonial</h1>
-            <p class="my-5" style="color:#686B8D">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            <p class="my-5" style="color:#686B8D">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
               sed diam nonummy nibh euismod tincidunt ut
             </p>
           </div> 
         </div>
-        <div class="container-fluid mb-5" style="background-image: url(./assets/images/main/photos.png);">
-          <!-- <div class="cart-img image-container mx-auto" style="background-image: url(./assets/images/main/Section5/bgcard.svg);">
+        <div class="container-fluid mb-5"
+         style="background-image: url(./assets/images/main/photos.png);">
+          <!-- <div class="cart-img image-container mx-auto" 
+            style="background-image: url(./assets/images/main/Section5/bgcard.svg);">
           </div> -->
-          <img class="img-fluid col-sm-12 col-md-11 col-lg-8 qoute-bg"  src="./assets/images/main/Section5/bgcard.svg"/>
-          <p class="qoute-card-text col-10 col-lg-5  mb-1">
+          <!-- <img class="review--bg img-fluid col-sm-12 col-md-11 col-lg-8 qoute-bg" 
+           src="./assets/images/main/Section5/bgcard.svg"/> -->
+                 <!--test-->
+      <div class="testimonial--bg mx-auto">
+        <div class="testimonial d-flex flex-column">
+        <p class="testimonial__content my-2 my-sm-4 my-g-5 col-10 mx-auto">
+          “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+          sed diam nonummy euismod Lorem ipsum dolor sit amet, consectetuer.”
+        </p>
+        <div class="testimonial__author author my-1">
+          <img class="author__picture img-fluid mb-3 mb-lg-3" src="./assets/images/main/Section5/oute-img.png">
+        <h3 class="author__name text-dark fw-bold mb-3 mb-lg-2">Jenifar Doe</h3>
+        <span class="author__role">Student</span>
+        </div>
+      </div>
+          <!-- <p class="qoute-card-text col-10 col-lg-5  mb-1">
             “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
             sed diam nonummy euismod Lorem ipsum dolor sit amet, consectetuer.”
-            </p>
+          </p>
           <div class="qoute-author">
             <img class="img-fluid qoute-author-img mb-1 mb-lg-3" src="./assets/images/main/Section5/oute-img.png">
           <h3 class="text-dark qoute-author mb-1 mb-lg-2">Jenifar Doe</h3>
           <span class="">Student</span>
-          </div>
+          </div> -->
         </div>
       </section>
       </main>

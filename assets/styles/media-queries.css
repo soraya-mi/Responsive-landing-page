@@ -1,5 +1,9 @@
 @media screen and (max-width: 385px) {
   /*header*/
+  .header--bg {
+    width: auto;
+    height: 2000px;
+  }
   .header__card_title {
     font-size: 0.7rem;
   }
@@ -7,28 +11,31 @@
     font-size: 0.5rem;
   }
   /*main*/
-  #section-4 {
+  .main {
+    margin-top: -600px;
+  }
+  .main__innovation {
     border-radius: 10px;
   }
-  #section-4 .card {
+  .main__innovation .card {
     border-radius: 15px;
     height: 150px;
   }
-  #section-4 .card .card-img-top {
+  .main__innovation .card .card-img-top {
     max-height: 60px;
   }
-  #section-4 .card,
-  #section-4 .card .btn {
+  .main__innovation .card,
+  .main__innovation .card .btn {
     font-size: 6px;
     /* color:red; */
   }
-  .main__reviews .qoute-card-text {
+  .main__testimonial .qoute-card-text {
     font-size: 8px;
-    width:65%;
-    left:15%;
-    top:42%;
+    width: 65%;
+    left: 15%;
+    top: 42%;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 70%;
     left: 40%;
     font-size: 8px;
@@ -43,6 +50,11 @@
 }
 @media screen and (min-width: 386px) {
   /*header*/
+  /*header*/
+  .header--bg {
+    width: auto;
+    height: 2000px;
+  }
   .header__card_title {
     font-size: 0.8rem;
   }
@@ -50,28 +62,31 @@
     font-size: 0.7rem;
   }
   /*main*/
-  .main__reviews .qoute-bg {
+  .main {
+    margin-top: -420px;
+  }
+  .main__testimonial .qoute-bg {
     width: 75%;
     left: 12%;
     top: 30%;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 67%;
     left: 43%;
     font-size: 12px;
   }
-  .main__reviews .qoute-card-text {
+  .main__testimonial .qoute-card-text {
     left: 20%;
     top: 45%;
     width: 60%;
     font-size: 10px;
   }
-  #section-4 .card,
-  #section-4 .card .btn {
+  .main__innovation .card,
+  .main__innovation .card .btn {
     font-size: 8px;
     /* color:red; */
   }
-  #section-4 .card .card-img-top {
+  .main__innovation .card .card-img-top {
     width: auto;
     max-height: 90px;
   }
@@ -100,37 +115,55 @@
   }
 }
 @media screen and (min-width: 486px) {
+  /*header*/
+  .header--bg {
+    width: auto;
+    height: 2250px;
+  }
   /*main*/
-  .main__reviews > div:last-child{
+  .main {
+    margin-top: -600px;
+  }
+    .main__innovation .card,
+  .main__innovation .card .btn {
+    font-size: 14px;
+    /* color:red; */
+  }
+  .main__innovation .card .card-img-top {
+    width: auto;
+    max-height: 110px;
+  }
+  .main__testimonial > div:last-child {
     height: 300px;
   }
-  .main__reviews .qoute-bg {
+  .main__testimonial .qoute-bg {
     width: 70%;
     left: 15%;
     top: 20%;
   }
-  .main__reviews .qoute-author-img {
+  .main__testimonial .qoute-author-img {
     width: 35px;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 52%;
     left: 43%;
   }
-  .main__reviews .qoute-card-text {
+  .main__testimonial .qoute-card-text {
     left: 22%;
     top: 35%;
     width: 55%;
     font-size: 10px;
   }
-  #section-4 .card,
-  #section-4 .card .btn {
-    font-size: 14px;
-    /* color:red; */
+    .main__testimonial .testimonial__content,
+    .main__testimonial .testimonial__author .author__name,
+    .main__testimonial .testimonial__author .author__role {
+    font-size: 12px;
   }
-  #section-4 .card .card-img-top {
-    width: auto;
-    max-height: 110px;
+  .main__testimonial .testimonial__author .author__picture {
+    width: 40px;
+    height: 40px;
   }
+
   /*footer*/
   .footer__subscribe {
     height: 60px;
@@ -150,30 +183,45 @@
     font-size: 1rem;
   }
 }
+@media screen and (min-width: 486px) and (max-width: 576px) {
+  .header--bg {
+    height: 2300px;
+  }
+  .main {
+    margin-top: -450px;
+  }
+}
 @media screen and (min-width: 768px) {
+  /*header*/
+  .header--bg {
+    height: 1700px;
+  }
   /*main*/
-  .main__reviews .qoute-author-img {
+  .main {
+    margin-top: -100px;
+  }
+  .main__testimonial .qoute-author-img {
     width: 60px;
   }
-  .main__reviews .qoute-bg {
+  .main__testimonial .qoute-bg {
     width: 70%;
     left: 15%;
     top: 18%;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 50%;
     left: 45%;
   }
-  .main__reviews .qoute-card-text {
+  .main__testimonial .qoute-card-text {
     left: 22%;
     top: 30%;
     width: 55%;
     font-size: 14px;
   }
-  #section-4 .card {
+  .main__innovation .card {
     font-size: 24px;
   }
-  #section-4 .card .card-img-top {
+  .main__innovation .card .card-img-top {
     width: auto;
     max-height: 130px;
   }
@@ -200,8 +248,22 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
-  .main__reviews > div:last-child{
-    height: 400px;
+  .main__testimonial > div:last-child {
+    height: 300px;
+  }
+  .main__testimonial .testimonial__content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+  }
+  .main__testimonial .testimonial__author .author__picture {
+    width: 60px;
+    height: 60px;
+  }
+  .main__testimonial .testimonial__author .author__name,
+  .main__testimonial .testimonial__author .author__role {
+    font-size: 14px;
   }
   /*footer*/
   .footer__subscribe {
@@ -213,6 +275,9 @@
   .header {
     height: auto;
   }
+  .header--bg {
+    height: 1000px;
+  }
   .header__card_title {
     font-size: 1rem;
   }
@@ -220,27 +285,47 @@
     font-size: 0.7rem;
   }
   /*main*/
-
-  .main__reviews .qoute-author-img {
+  .main {
+    margin-top: 0px;
+  }
+  .main__testimonial .qoute-author-img {
     width: 80px;
   }
-  .main__reviews .qoute-bg {
+  .main__testimonial .qoute-bg {
     top: 10%;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 60%;
     left: 45%;
     font-size: 1rem;
   }
-  .main__reviews .qoute-card-text {
+  .main__testimonial .qoute-card-text {
     left: 25%;
     top: 25%;
     width: 50%;
     font-size: 1rem;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 50%;
     left: 45%;
+  }
+  /*****/
+  .main__testimonial .testimonial__content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+  }
+  .main__testimonial .testimonial__author .author__picture {
+    width: 60px;
+    height: 0px;
+  }
+  .main__testimonial .testimonial__author .author__name {
+    font-size: 20px;
+  }
+  .main__testimonial .testimonial__author .author__name {
+    font-weight: 500;
+    font-size: 20px;
   }
   /* section 2 :Our Popular Cources */
   .main__popular_courses .card {
@@ -257,7 +342,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #section-4 .card .card-img-top {
+  .main__innovation .card .card-img-top {
     width: auto;
     max-height: 150px;
   }
@@ -283,8 +368,10 @@
     font-size: 0.8rem;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+/*and (max-width: 1399px)*/
+@media screen and (min-width: 1200px) {
   /*header*/
+
   .header__card_title {
     font-size: 1.3rem;
   }
@@ -292,19 +379,19 @@
     font-size: 1rem;
   }
   /*main*/
-  .main__reviews .qoute-author-img {
+  .main__testimonial .qoute-author-img {
     width: 100px;
   }
-  .main__reviews .qoute-bg {
+  .main__testimonial .qoute-bg {
     width: 60%;
     left: 20%;
     top: -5%;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 35%;
     left: 45%;
   }
-  .main__reviews .qoute-card-text {
+  .main__testimonial .qoute-card-text {
     left: 28%;
     top: 15%;
     width: 45%;
@@ -313,10 +400,31 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #section-4 .card .card-img-top {
+  .main__innovation .card .card-img-top {
     width: auto;
     max-height: 190px;
   }
+  .main__testimonial .testimonial__author .author__picture{
+  width: 80px;
+  height: 80px;
+}
+  /* .main__testimonial .testimonial__content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+  }
+  .main__testimonial .testimonial__author .author__picture{
+    width: 100px;
+    height: 100px;
+  }
+  .main__testimonial .testimonial__author .author__name{
+    font-size: 20px;
+  }
+  .main__testimonial .testimonial__author .author__name{
+    font-weight: 500;
+    font-size: 20px;
+  } */
   /* footer */
   .footer__info {
     flex: 0 0 20%;
@@ -337,6 +445,9 @@
 }
 @media screen and (min-width: 1400px) {
   /*header*/
+  .header--bg {
+    height: auto;
+  }
   .header__card_title {
     font-size: 1.5rem;
   }
@@ -344,16 +455,16 @@
     font-size: 1.2rem;
   }
   /*main*/
-  .main__reviews .qoute-bg {
+  .main__testimonial .qoute-bg {
     width: 70%;
     left: 15%;
     top: -15%;
   }
-  .main__reviews .qoute-author {
+  .main__testimonial .qoute-author {
     top: 50%;
     left: 46%;
   }
-  .main__reviews .qoute-card-text {
+  .main__testimonial .qoute-card-text {
     left: 27%;
     top: 15%;
     width: 45%;
@@ -372,10 +483,32 @@
     padding-left: 5px;
   }
   .main__popular_courses .card-title {
-    font-size:20px;
+    font-size: 20px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
+  .main__testimonial .testimonial__author .author__picture{
+  width: 100px;
+  height: 100px;
+}
+  /*Section 5: student testiomonal*/
+  /* .main__testimonial .testimonial__content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+  }
+  .main__testimonial .testimonial__author .author__picture{
+    width: 100px;
+    height: 100px;
+  }
+  .main__testimonial .testimonial__author .author__name{
+    font-size: 20px;
+  }
+  .main__testimonial .testimonial__author .author__name{
+    font-weight: 500;
+    font-size: 20px;
+  } */
   /*footer*/
   .footer__subscribe {
     height: 100px;

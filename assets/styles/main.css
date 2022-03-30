@@ -95,15 +95,16 @@
   padding-right: 35px;
   background-position: center;
 }
-.main__benefits .item__title{
-  font-family:Gilory;
+.main__benefits .item__title {
+  font-family: Gilory;
 }
 /* section 2 :Our Popular Cources */
+/* should i change this to bem?!*/
 .main__popular_courses .card--bg {
   width: 100%;
-  height:100%;
+  height: 100%;
   background-repeat: no-repeat;
-  background-size: 100% 100%;/*100% 100%/
+  background-size: 100% 100%; /*100% 100%/
   height: 620px;
   background-position: top;
   /* width:auto; */
@@ -115,124 +116,176 @@
   border-radius: 50px;
   border: 5px red;
   width: 95%;
-  height:99%;
-  background-color:transparent;
+  height: 99%;
+  background-color: transparent;
   /* font-size:12px; */
-  overflow:hidden;
+  overflow: hidden;
 }
-.main__popular_courses .card-title{
-  font-size:10px;
+.main__popular_courses .card-body {
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.main__popular_courses .card-body > div {
+  flex-direction: column;
+}
+.main__popular_courses .card-body,
+.main__popular_courses .card-body > div {
+  width: fit-content;
+}
+.main__popular_courses .card-title {
+  font-size: 10px;
 }
 .main__popular_courses .card-img-top {
   border-radius: 10px;
 }
-.main__popular_courses .card-body{
-  padding-bottom:2px;
-  padding-top:2px;
-}
-.main__popular_courses .card-body,
-.main__popular_courses .card-body>div{
-  width:fit-content;
+.main__popular_courses .card-body img {
+  height: 10px;
 }
 .main__popular_courses .card-tag {
   background: #eaedff;
   color: #6776ff;
   border-radius: 5px;
-  font-size:8px;
-  padding:0px;
-  width:fit-content;
-  padding:1px;
-}
-.main__popular_courses .card-body img{
-  height:10px;
-}
-.main__popular_courses .card-play{
-  font-size:8px;
+  font-size: 8px;
+  padding: 0px;
+  width: fit-content;
+  padding: 1px;
 }
 .main__popular_courses .card-rate {
   color: #fff;
   background: #6776ff;
   border-radius: 25px;
   width: fit-content;
-  height:fit-content;
+  height: fit-content;
   justify-content: space-between;
-  font-size:8px;
+  font-size: 8px;
 }
-.main__popular_courses .card-body>div{
-  flex-direction:column;
+.main__popular_courses .card-play {
+  font-size: 8px;
 }
 /* section 3*/
 /* section 4 */
-#section-4 {
+.main__innovation {
   background: #eaedff;
   border-radius: 120px;
 }
-#section-4 .card {
+.main__innovation .card {
   border-radius: 50px;
   border: none;
   height: auto;
   min-height: 100% !important;
   font-size: 1.5rem;
 }
-#section-4 .card .card-img-top {
+.main__innovation .card .card-img-top {
   width: auto;
   /* height: 209px;
   min-height: 209px; */
   max-height: 190px;
-  margin-top:25px;
+  margin-top: 25px;
 }
-#section-4 .card .btn {
+.main__innovation .card .btn {
   color: #fff;
   background: rgba(108, 99, 255, 0.8);
   border-radius: 10px;
   padding: 10px 15px;
 }
-#section-4 .card,
-#section-4 .card .btn {
+.main__innovation .card,
+.main__innovation .card .btn {
   font-size: 12px;
   /* color:red; */
 }
-#section-4 .card .card-title {
+.main__innovation .card .card-title {
   font-family: Gilory;
 }
-
 /* section 5 : #section-Student-Testimonial */
-.main__reviews{
+.main__testimonial {
   overflow: hidden;
 }
-.main__reviews > div:last-child {
+.main__testimonial > div:last-child {
   height: 250px;
-  /* min-height: 200px; */
-  /* background-image: url(../images/main/photos.png); */
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
   z-index: 0;
   width: 100%;
   position: relative;
-  /* left:0%; */
   color: #aaacc6;
 }
-.main__reviews > div:last-child > * {
+.main__testimonial > div:last-child > * {
   position: absolute;
 }
-.main__reviews .qoute-bg {
+/* .main__testimonial .qoute-bg {
   left: 0%;
   top: 30%;
   height: auto;
 }
-.main__reviews .qoute-author-img {
+.main__testimonial .qoute-author-img {
   width: 20px;
 }
-.main__reviews .qoute-author {
+.main__testimonial .qoute-author {
   top: 57%;
   left: 40%;
   font-size: 12px;
 }
-.main__reviews .qoute-card-text {
+.main__testimonial .qoute-card-text {
   color: #aaacc6;
   left: 10%;
   top: 38%;
   width: 80%;
   font-size: 12px;
+} */
+/*test another implementation of review card*/
+.main__testimonial .testimonial {
+  height: 100%;
+  background-color: #fff;
+  border: solid 10px transparent;
+  background-clip: padding-box;
+  border-width: 5px;
+  border-radius: 100px;
+}
+.main__testimonial .testimonial--bg {
+  width: 55%;
+  height: 100%;
+  border-radius: 100px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -10px; /* !importanté */
+  background-color: red;
+  background: linear-gradient(
+    28deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(103, 118, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 75%
+  );
+}
+.main__testimonial .testimonial__content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  /* or 36px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #aaacc6;
+}
+/* .main__testimonial .testimonial__author .author__picture{
+  width: 100px;
+  height: 100px;
+} */
+.main__testimonial .testimonial__author .author__name{
+  font-size: 20px;
+line-height: 0%;
+}
+.main__testimonial .testimonial__author .author__role{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #AAACC6;
 }
