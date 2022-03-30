@@ -12,7 +12,7 @@
   }
   /*main*/
   .main {
-    margin-top: -600px;
+    margin-top: -450px;
   }
   .main__innovation {
     border-radius: 10px;
@@ -29,17 +29,6 @@
     font-size: 6px;
     /* color:red; */
   }
-  .main__testimonial .qoute-card-text {
-    font-size: 8px;
-    width: 65%;
-    left: 15%;
-    top: 42%;
-  }
-  .main__testimonial .qoute-author {
-    top: 70%;
-    left: 40%;
-    font-size: 8px;
-  }
   .footer__cantact,
   .footer__cantact_bg {
     border-radius: 20px;
@@ -55,31 +44,9 @@
     width: auto;
     height: 2000px;
   }
-  .header__card_title {
-    font-size: 0.8rem;
-  }
-  .header__cart_text {
-    font-size: 0.7rem;
-  }
   /*main*/
   .main {
-    margin-top: -420px;
-  }
-  .main__testimonial .qoute-bg {
-    width: 75%;
-    left: 12%;
-    top: 30%;
-  }
-  .main__testimonial .qoute-author {
-    top: 67%;
-    left: 43%;
-    font-size: 12px;
-  }
-  .main__testimonial .qoute-card-text {
-    left: 20%;
-    top: 45%;
-    width: 60%;
-    font-size: 10px;
+    margin-top: -350px;
   }
   .main__innovation .card,
   .main__innovation .card .btn {
@@ -109,6 +76,15 @@
   .main__popular_courses .card-img-top {
     border-radius: 20px;
   }
+   .main__testimonial .testimonial__content,
+  .main__testimonial .testimonial__author .author__name,
+  .main__testimonial .testimonial__author .author__role {
+    font-size: 8px;
+  }
+  .main__testimonial .testimonial__author .author__picture {
+    width: 20px;
+    height: 20px;
+  }
   /*footer*/
   .footer__subscribe {
     font-size: 12px;
@@ -124,7 +100,7 @@
   .main {
     margin-top: -600px;
   }
-    .main__innovation .card,
+  .main__innovation .card,
   .main__innovation .card .btn {
     font-size: 14px;
     /* color:red; */
@@ -134,36 +110,17 @@
     max-height: 110px;
   }
   .main__testimonial > div:last-child {
-    height: 300px;
+    height: 250px;
   }
-  .main__testimonial .qoute-bg {
-    width: 70%;
-    left: 15%;
-    top: 20%;
-  }
-  .main__testimonial .qoute-author-img {
-    width: 35px;
-  }
-  .main__testimonial .qoute-author {
-    top: 52%;
-    left: 43%;
-  }
-  .main__testimonial .qoute-card-text {
-    left: 22%;
-    top: 35%;
-    width: 55%;
-    font-size: 10px;
-  }
-    .main__testimonial .testimonial__content,
-    .main__testimonial .testimonial__author .author__name,
-    .main__testimonial .testimonial__author .author__role {
+  .main__testimonial .testimonial__content,
+  .main__testimonial .testimonial__author .author__name,
+  .main__testimonial .testimonial__author .author__role {
     font-size: 12px;
   }
   .main__testimonial .testimonial__author .author__picture {
     width: 40px;
     height: 40px;
   }
-
   /*footer*/
   .footer__subscribe {
     height: 60px;
@@ -200,24 +157,7 @@
   .main {
     margin-top: -100px;
   }
-  .main__testimonial .qoute-author-img {
-    width: 60px;
-  }
-  .main__testimonial .qoute-bg {
-    width: 70%;
-    left: 15%;
-    top: 18%;
-  }
-  .main__testimonial .qoute-author {
-    top: 50%;
-    left: 45%;
-  }
-  .main__testimonial .qoute-card-text {
-    left: 22%;
-    top: 30%;
-    width: 55%;
-    font-size: 14px;
-  }
+
   .main__innovation .card {
     font-size: 24px;
   }
@@ -249,7 +189,7 @@
     margin-bottom: 0.5rem;
   }
   .main__testimonial > div:last-child {
-    height: 300px;
+    height: 250px;
   }
   .main__testimonial .testimonial__content {
     font-style: normal;
@@ -258,12 +198,12 @@
     line-height: 180%;
   }
   .main__testimonial .testimonial__author .author__picture {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
   .main__testimonial .testimonial__author .author__name,
   .main__testimonial .testimonial__author .author__role {
-    font-size: 14px;
+    font-size: 12px;
   }
   /*footer*/
   .footer__subscribe {
@@ -286,39 +226,20 @@
   }
   /*main*/
   .main {
-    margin-top: 0px;
+    margin-top: -150px;
   }
-  .main__testimonial .qoute-author-img {
-    width: 80px;
+  .main__testimonial > div:last-child {
+    height: 300px;
   }
-  .main__testimonial .qoute-bg {
-    top: 10%;
-  }
-  .main__testimonial .qoute-author {
-    top: 60%;
-    left: 45%;
-    font-size: 1rem;
-  }
-  .main__testimonial .qoute-card-text {
-    left: 25%;
-    top: 25%;
-    width: 50%;
-    font-size: 1rem;
-  }
-  .main__testimonial .qoute-author {
-    top: 50%;
-    left: 45%;
-  }
-  /*****/
   .main__testimonial .testimonial__content {
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 180%;
   }
   .main__testimonial .testimonial__author .author__picture {
     width: 60px;
-    height: 0px;
+    height:60px;
   }
   .main__testimonial .testimonial__author .author__name {
     font-size: 20px;
@@ -371,7 +292,9 @@
 /*and (max-width: 1399px)*/
 @media screen and (min-width: 1200px) {
   /*header*/
-
+  .header--bg {
+    height: auto;
+  }
   .header__card_title {
     font-size: 1.3rem;
   }
@@ -379,22 +302,8 @@
     font-size: 1rem;
   }
   /*main*/
-  .main__testimonial .qoute-author-img {
-    width: 100px;
-  }
-  .main__testimonial .qoute-bg {
-    width: 60%;
-    left: 20%;
-    top: -5%;
-  }
-  .main__testimonial .qoute-author {
-    top: 35%;
-    left: 45%;
-  }
-  .main__testimonial .qoute-card-text {
-    left: 28%;
-    top: 15%;
-    width: 45%;
+    .main__testimonial > div:last-child {
+    height: 400px;
   }
   .main__popular_courses .card-title {
     margin-top: 1rem;
@@ -404,10 +313,10 @@
     width: auto;
     max-height: 190px;
   }
-  .main__testimonial .testimonial__author .author__picture{
-  width: 80px;
-  height: 80px;
-}
+  .main__testimonial .testimonial__author .author__picture {
+    width: 80px;
+    height: 80px;
+  }
   /* .main__testimonial .testimonial__content {
     font-style: normal;
     font-weight: 500;
@@ -445,31 +354,13 @@
 }
 @media screen and (min-width: 1400px) {
   /*header*/
-  .header--bg {
-    height: auto;
+  .header .hero .header__card_title {
+    font-size: 35px;
   }
-  .header__card_title {
-    font-size: 1.5rem;
-  }
-  .header__cart_text {
-    font-size: 1.2rem;
-  }
-  /*main*/
-  .main__testimonial .qoute-bg {
-    width: 70%;
-    left: 15%;
-    top: -15%;
-  }
-  .main__testimonial .qoute-author {
-    top: 50%;
-    left: 46%;
-  }
-  .main__testimonial .qoute-card-text {
-    left: 27%;
-    top: 15%;
-    width: 45%;
+  .header .hero .header__cart_text {
     font-size: 20px;
   }
+  /*main*/
   /* section 2 :Our Popular Cources */
   .main__popular_courses .card {
     width: 98%;
@@ -487,10 +378,10 @@
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
-  .main__testimonial .testimonial__author .author__picture{
-  width: 100px;
-  height: 100px;
-}
+  .main__testimonial .testimonial__author .author__picture {
+    width: 90px;
+    height: 90px;
+  }
   /*Section 5: student testiomonal*/
   /* .main__testimonial .testimonial__content {
     font-style: normal;
