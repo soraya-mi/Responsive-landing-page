@@ -1,5 +1,5 @@
 /* section 1 */
-#section-1 .image-container {
+.main__benefits .image-container {
   background-image: url(../images/main/section-2/bg-blue.svg);
   background-position: 40% 45%;
   background-repeat: no-repeat;
@@ -12,54 +12,40 @@
   left: 0px;
   overflow: auto;
 }
-.section-img {
-  background-repeat: no-repeat;
-  display: inline-block;
-  position: absolute;
-}
-#section-1 #img-1 {
-  /* position: absolute; */
+.main__benefits #img-1 {
   width: 170px;
   height: 226px;
-  /* left: 315px; */
-  /* top: 1344px; */
   background: #274966;
   border-radius: 190px 0px 0px 0px;
   background-image: url(../images/main/section-2/pngaaadark-blue.png);
   background-position: 0px 30px;
   background-repeat: no-repeat;
-  /* background-size: contain; */
   content: "";
 }
-#section-1 #img-2 {
+.main__benefits #img-2 {
   width: 400px;
   height: 248px;
   left: 220px;
   top: 125px;
-  /* background: linear-gradient(82.05deg, #5B3C83 2.97%, #C2A9E2 84.86%); */
   border-radius: 0px 190px 0px 0px;
-  /* background-image: url(../images/main/section-2/img-purple.png),
-      url(../images/main/section-2/purple.svg); */
   background-image: url(../images/main/bg-purple.svg);
   background-position: 20%, 0px 0px;
   background-repeat: no-repeat;
   background-size: contain;
   content: "";
 }
-#section-1 #img-3 {
+.main__benefits #img-3 {
   width: 190px;
   height: 301px;
   left: 0px;
   top: 260px;
-  /* background-image: url(../images/main/section-2/pngaaa-gray.png),
-      url(../images/main/section-2/6bg-gray.svg); */
   background-position: 35% 55%, 0px 0px;
   background-repeat: no-repeat;
   content: "";
   background: #d7d7d4;
   border-radius: 95px;
 }
-#section-1 #img-4 {
+.main__benefits #img-4 {
   width: 190px;
   height: 190px;
   left: 210px;
@@ -69,10 +55,9 @@
   background-image: url(../images/main/section-2/pngaaapink.png);
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: contain; */
   content: "";
 }
-#section-1 #img-5 {
+.main__benefits #img-5 {
   width: 190px;
   height: 301px;
   left: 430px;
@@ -84,7 +69,7 @@
   background-repeat: no-repeat;
   content: "";
 }
-#section-1 #img-6 {
+.main__benefits #img-6 {
   width: 409px;
   height: 248px;
   left: 0px;
@@ -96,7 +81,7 @@
   background-repeat: no-repeat;
   content: "";
 }
-.item-logo {
+.main__benefits .item__logo {
   width: 90px;
   display: inline-block;
   margin-right: 2px;
@@ -105,148 +90,200 @@
   padding-right: 35px;
   background-position: center;
 }
-#section-1 #icon-2 {
-  background-image: url(../images/main/section1/icon-2.svg),
-    url(../images/main/section1/icon-2-bg.svg);
+.main__benefits .item__title {
+  font-family: Gilory;
 }
-#section-1 #icon-3 {
-  background-image: url(../images/main/section1/searchicon-3.svg),
-    url(../images/main/section1/icon-3-bg.svg);
-}
-
 /* section 2 :Our Popular Cources */
-#section-2 .card-bg {
+/* should i change this to bem?!*/
+.main__popular_courses .card--bg {
   width: 100%;
-  height:100%;
+  height: 100%;
   background-repeat: no-repeat;
-  background-size: 100% 100%;/*100% 100%/
+  background-size: 100% 100%; /*100% 100%/
   height: 620px;
   background-position: top;
   /* width:auto; */
 }
-#section-2 .card {
+.main__popular_courses .card {
   background-image: url(../images/main/section-4/card-bg.svg) !important;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50px;
   border: 5px red;
   width: 95%;
-  height:99%;
-  background-color:transparent;
+  height: 99%;
+  background-color: transparent;
   /* font-size:12px; */
-  overflow:hidden;
+  overflow: hidden;
 }
-#section-2 .card-title{
-  font-size:10px;
+.main__popular_courses .card-body {
+  padding-bottom: 2px;
+  padding-top: 2px;
 }
-#section-2 .card-img-top {
+.main__popular_courses .card-body > div {
+  flex-direction: column;
+}
+.main__popular_courses .card-body,
+.main__popular_courses .card-body > div {
+  width: fit-content;
+}
+.main__popular_courses .card-title {
+  font-size: 10px;
+}
+.main__popular_courses .card-img-top {
   border-radius: 10px;
 }
-#section-2 .card-body{
-  padding-bottom:2px;
-  padding-top:2px;
+.main__popular_courses .card-body img {
+  height: 10px;
 }
-#section-2 .card-body,#section-2 .card-body >div{
-  width:fit-content;
-}
-#section-2 .card-tag {
+.main__popular_courses .card-tag {
   background: #eaedff;
   color: #6776ff;
   border-radius: 5px;
-  font-size:8px;
-  padding:0px;
-  width:fit-content;
-  padding:1px;
+  font-size: 8px;
+  padding: 0px;
+  width: fit-content;
+  padding: 1px;
 }
-#section-2 .card-body img{
-  height:10px;
-}
-#section-2 .card-play{
-  font-size:8px;
-}
-#section-2 .card-rate {
+.main__popular_courses .card-rate {
   color: #fff;
   background: #6776ff;
   border-radius: 25px;
   width: fit-content;
-  height:fit-content;
+  height: fit-content;
   justify-content: space-between;
-  font-size:8px;
+  font-size: 8px;
 }
-#section-2 .card-body>div{
-  flex-direction:column;
+.main__popular_courses .card-play {
+  font-size: 8px;
 }
-
+/* section 3*/
 /* section 4 */
-#section-4 {
+.main__innovation {
   background: #eaedff;
   border-radius: 120px;
 }
-#section-4 .card {
+.main__innovation .card {
   border-radius: 50px;
   border: none;
   height: auto;
   min-height: 100% !important;
   font-size: 1.5rem;
 }
-#section-4 .card .card-img-top {
+.main__innovation .card .card-img-top {
   width: auto;
   /* height: 209px;
   min-height: 209px; */
   max-height: 190px;
+  margin-top: 25px;
 }
-#section-4 .card .btn {
+.main__innovation .card .btn {
   color: #fff;
   background: rgba(108, 99, 255, 0.8);
   border-radius: 10px;
   padding: 10px 15px;
 }
-#section-4 .card,
-#section-4 .card .btn {
+.main__innovation .card,
+.main__innovation .card .btn {
   font-size: 12px;
   /* color:red; */
 }
-#section-4 .card .card-title {
+.main__innovation .card .card-title {
   font-family: Gilory;
 }
-
 /* section 5 : #section-Student-Testimonial */
-#section-Student-Testimonial{
+.main__testimonial {
   overflow: hidden;
 }
-#section-Student-Testimonial > div:last-child {
+.main__testimonial > div:last-child {
   height: 250px;
-  /* min-height: 200px; */
-  /* background-image: url(../images/main/photos.png); */
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
   z-index: 0;
   width: 100%;
   position: relative;
-  /* left:0%; */
   color: #aaacc6;
 }
-#section-Student-Testimonial > div:last-child > * {
+.main__testimonial > div:last-child > * {
   position: absolute;
 }
-#section-Student-Testimonial .qoute-bg {
+/* .main__testimonial .qoute-bg {
   left: 0%;
   top: 30%;
   height: auto;
 }
-#section-Student-Testimonial .qoute-author-img {
+.main__testimonial .qoute-author-img {
   width: 20px;
 }
-#section-Student-Testimonial .qoute-author {
+.main__testimonial .qoute-author {
   top: 57%;
   left: 40%;
   font-size: 12px;
 }
-#section-Student-Testimonial .qoute-card-text {
+.main__testimonial .qoute-card-text {
   color: #aaacc6;
   left: 10%;
   top: 38%;
   width: 80%;
   font-size: 12px;
+} */
+/*test another implementation of review card*/
+.main__testimonial .testimonial {
+  height: 100%;
+  background-color: #fff;
+  border: solid 10px transparent;
+  background-clip: padding-box;
+  border-width: 5px;
+  border-radius: 100px;
+}
+.main__testimonial .testimonial--bg {
+  width: 55%;
+  height: 100%;
+  border-radius: 100px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -10px; /* !importanté */
+  background-color: red;
+  background: linear-gradient(
+    28deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(103, 118, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 75%
+  );
+}
+.main__testimonial .testimonial__content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #aaacc6;
+}
+.main__testimonial .testimonial__author .author__picture {
+    width: 30px;
+    height: 30px;
+  }
+/* .main__testimonial .testimonial__author .author__picture{
+  width: 100px;
+  height: 100px;
+} */
+.main__testimonial .testimonial__author .author__name{
+  font-size: 8px;
+line-height: 0%;
+}
+.main__testimonial .testimonial__author .author__role{
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 0%;
+  text-align: center;
+  color: #AAACC6;
 }
